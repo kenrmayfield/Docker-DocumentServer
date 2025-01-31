@@ -1,6 +1,14 @@
 This build of onlyoffice community edition ( documentserver ) has connections limits increased to 9999 ( instead of default 20 ).
 All credits to www.btactic.com that made this blog post https://www.btactic.com/build-onlyoffice-from-source-code-2022/?lang=en#
 
+### NOTE:  
+There is also a Docker Pull listed below if you do not want to Run the Script.
+#### Docker Pull:
+docker pull ghcr.io/thomisus/onlyoffice-documentserver-unlimited:8.1.3
+
+#### Docker Hub: 
+https://hub.docker.com/layers/thomisus/onlyoffice-documentserver-unlimited/8.1.3/images/sha256-3378ca60c443c21a7b76d57b22cf9e1746c2edfbafa1f70e7d1ac0dca9efc6c7
+
 It is intended to be NOT production ready ( use at your own risk ). 
 If you want a production ready release, contact Ascensio System https://www.onlyoffice.com/contacts.aspx and buy an Enterprise license to support development.
 
